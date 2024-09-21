@@ -1,12 +1,12 @@
 Summary:	A Hyprland implementation of wayland-scanner, in and for C++
 Name:		hyprwayland-scanner
-Version:	0.4.0
+Version:	0.4.2
 Release:	1
 License:	BSD
 Group:		Development/Tools
 #Source0Download: https://github.com/hyprwm/hyprwayland-scanner/releases
 Source0:	https://github.com/hyprwm/hyprwayland-scanner/archive/v%{version}/%{name}-v%{version}.tar.gz
-# Source0-md5:	f62bdda98176fd36141c7001c84b007c
+# Source0-md5:	700e4abd566bdd5ac346e88da123cfaf
 Patch0:		flags.patch
 URL:		https://hyprland.org/
 BuildRequires:	cmake >= 3.19
