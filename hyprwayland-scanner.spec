@@ -21,7 +21,7 @@ A Hyprland implementation of wayland-scanner, in and for C++.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %cmake -B build
